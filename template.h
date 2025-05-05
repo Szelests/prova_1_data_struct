@@ -6,13 +6,13 @@
 
 // Listas simplesmente encadeadas
 typedef struct Node_s {
-    uint8_t data; // Data of the node
+    int data; // Data of the node
     struct Node_s* next; // Pointer to the next node
 } Node_s;
 
 // Listas duplamente encadeadas
 typedef struct Node_d {
-    uint8_t data;
+    int data;
     struct Node_d *next;
     struct Node_d *prev;
 } Node_d;
